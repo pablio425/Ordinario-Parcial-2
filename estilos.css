@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #4d648d;
+    justify-content: center;
+}
+
+nav a {
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    background-color: #283655;
+}
+
+.ContenedorFormulario {
+    background-color: #a7c0cd;
+    margin: 50px auto;
+    width: 60%;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.ContenedorFormulario h2 {
+    text-align: center;
+}
+
+.ContenedorGrupo {
+    padding: auto;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.BuscarBoton {
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: #c7e0ec;
+    color: #455a64;
+    font-weight: bold;
+    border: none;
+    padding: 40px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
